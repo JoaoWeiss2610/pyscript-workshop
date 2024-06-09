@@ -2,7 +2,7 @@ body{
     margin: 0;
 }
 .navbar{
-    background-color: #0038FF;
+    background-color: #000c04;
 }
 .task.py-li-element {
     display: flex;
@@ -45,7 +45,21 @@ body{
 }
 
 .task-priority-high { 
-    width: 10px;
-    color: red; }
+    color: rgb(116, 2, 2); }
 .task-priority-medium { color: yellow; }
 .task-priority-low { color: green; }
+
+.pyscript {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    font-size: 3em;
+    text-decoration: none;
+}

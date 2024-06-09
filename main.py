@@ -22,6 +22,7 @@ def add_task(e):
     # Tratamento de Tarefa Vazia
     if not new_task_content.value:
         return None
+        
     
     #Tratamento do tipo de prioridade que a Tarefa irá atribuir
     priority = ""
